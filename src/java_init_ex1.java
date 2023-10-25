@@ -9,7 +9,7 @@ public class java_init_ex1 {
         System.out.println();
         if (n<=1) System.out.println(st);
         else {
-            for (int i=0;i<=n;i++){
+            for (int i=0;i<n;i++){
                 System.out.println(st);
             }
         }
