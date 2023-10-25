@@ -5,16 +5,16 @@ public class java_init_ex2 {
         int times = sc.nextInt();
         int liters = sc.nextInt();
         if (times < 0 || liters < 0||times>=7){
-            System.out.println("Неверный ввод! ");
+            System.out.println("РќРµРІРµСЂРЅС‹Р№ РІРІРѕРґ! ");
         }
         else {
             int jija =0;
             for (int i=1;i<=16;i++){
                 jija += times*liters;
-                System.out.println("К "+i+" неделе будет выпито "+jija+ " литров жидкости");
+                System.out.println("Рљ "+i+" РЅРµРґРµР»Рµ Р±СѓРґРµС‚ РІС‹РїРёС‚Рѕ "+jija+ " Р»РёС‚СЂРѕРІ Р¶РёРґРєРѕСЃС‚Рё");
             }
-            if (jija >=120) System.out.println("Студент принят в IT-клуб");
-            else System.out.println("К сожалению,студент не принят в клуб");
+            if (jija >=120) System.out.println("РЎС‚СѓРґРµРЅС‚ РїСЂРёРЅСЏС‚ РІ IT-РєР»СѓР±");
+            else System.out.println("Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ,СЃС‚СѓРґРµРЅС‚ РЅРµ РїСЂРёРЅСЏС‚ РІ РєР»СѓР±");
         }
 
     }
